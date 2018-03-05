@@ -1,0 +1,20 @@
+{
+    "name": "alefcastelo/php-serializer",
+    "require": {
+        "league/fractal": "^0.17.0",
+        "jms/serializer": "1.10",
+        "jeremeamia/SuperClosure": "^2.3",
+        "nikic/fast-route": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPSerializer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alef Castelo",
+            "email": "alefaraujocastelo@gmail.com"
+        }
+    ]
+}
